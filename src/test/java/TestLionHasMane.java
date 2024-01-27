@@ -7,11 +7,11 @@ import org.junit.runners.Parameterized;
 import org.mockito.Mockito;
 
 @RunWith(Parameterized.class)
-public class LionTestDoesHaveMane {
+public class TestLionHasMane {
     private final String sex;
     private final boolean hasMane;
 
-    public LionTestDoesHaveMane(String sex, boolean hasMane) {
+    public TestLionHasMane(String sex, boolean hasMane) {
         this.sex = sex;
         this.hasMane = hasMane;
     }
