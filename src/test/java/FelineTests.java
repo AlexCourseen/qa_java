@@ -23,7 +23,8 @@ public class FelineTests {
     @Test
     public void checkGetKittensNoParam() {
         Feline feline1 = new Feline();
-        Assert.assertEquals(1, feline1.getKittens());
+        int felineKittens = 1;
+        Assert.assertEquals(felineKittens, feline1.getKittens());
     }
 
     @Test

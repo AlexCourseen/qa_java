@@ -29,8 +29,9 @@ public class LionTests {
     public void checkGetKittens() throws Exception{
         String sex = "Самец";
         Lion lion = new Lion(sex, feline);
+        int lionKittens = 1;
         Mockito.when(feline.getKittens()).thenReturn(1);
-        Assert.assertEquals(1, lion.getKittens());
+        Assert.assertEquals(lionKittens, lion.getKittens());
     }
 
     @Test
